@@ -57,7 +57,7 @@ def getWeather(date,city):
     min=round(((float(min)-32)/1.8),2)
     davr=round(((float(davr)-32)/1.8),2)    
     print(url)
-    label=Label(root,text="On 20{} in {}".format(date,city),anchor = "w",font=("Arial",11))
+    label=Label(root,text="On 20{} in {}   ".format(date,city),anchor = "w",font=("Arial",11))
     label.place(x=15,y=480)
     label1=Label(root,text="Max temperature: {}°  ".format(max),anchor = "w",font=("Arial",11))
     label1.place(x=15,y=510)
