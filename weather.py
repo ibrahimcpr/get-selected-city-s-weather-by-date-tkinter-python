@@ -90,7 +90,7 @@ def getData():
             check=p.confirm("Please pick city",buttons=["Okay"])
     except :
         check=p.confirm("Please check your internet connection",buttons=["Okay"])       
-#date tasarım
+#date 
 today = dt.datetime.today()
 mindate=dt.datetime(2000,1,1)
 cal = Calendar(root, selectmode = 'day',maxdate=today,mindate=mindate)
